@@ -7,7 +7,7 @@ import random
 import altair as alt
 
 DB_PATH = "pokemon.db"
-DB_URL = "PUT_YOUR_DIRECT_DOWNLOAD_URL_HERE"
+DB_URL = "https://github.com/gubin-svg/PokemonApp/releases/download/db/pokemon.db"
 
 def ensure_db():
     if not os.path.exists(DB_PATH):
